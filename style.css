@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    background-color: rgb(19, 23, 28);
+}
+.container {
+    padding: 60px;
+    box-shadow: 0 0 70px rgb(132 ,0 ,0);
+    border-radius: 5px;
+    width: 900px;
+
+}
+.container .logo {
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(132 ,0 ,0)
+}
+.container .logo img{
+    width: 400px;
+}
+.container .logo .title{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 0.8;
+    font-style: italic;
+    color: rgb(132 ,0 ,0);
+
+}
+.container form {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(45deg, rgb(132 ,0 ,0), rgb(132 ,0 ,0));
+    padding: 5px 15px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #ccc;
+    margin-bottom: 30px;
+}
+.container form input{
+    border: none;
+    outline: none;
+    background:transparent;
+    width: 90%;
+    align-items: left;
+}
+
+.container form button{
+    padding: 5px;
+    padding-right: 2px;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+
+
+}
+.container form button img{
+    width: 60px;
+    height: 60px;
+    align-items: right;
+}
